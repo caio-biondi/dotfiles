@@ -1,0 +1,64 @@
+{
+  //Color customizations
+  "workbench.colorCustomizations": {
+    // "statusBar.background": "#1A1A1A",
+    // "statusBar.debuggingBackground": "#1A1A1A",
+    // "statusBar.noFolderBackground": "#1A1A1A"
+    "editor.renderLineHighlight": "all",
+    "tab.activeBorder": "#000" // removes border to highlight active tabs (the colors formats are: #RGB, #RGBA, #RRGGBB or #RRGGBBAA)
+  },
+
+  // Font settings
+  "editor.fontFamily": "'FiraCode Nerd Font'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "terminal.integrated.fontSize": 16,
+  // "terminal.integrated.fontFamily": "monospace",
+  //Cursor settings
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": true,
+  // "vim.cursorStylePerMode.insert": "block",
+  "editor.cursorWidth": 2,
+
+  // Workbench settings
+  "workbench.activityBar.visible": false,
+
+  //Editor settings
+  "editor.lineHeight": 30,
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": false,
+  "editor.rulers": [80],
+
+  //Gradient cursor
+  "vscode_custom_css.imports": ["file:///Users/apple/Documents/vscode.css"],
+  "vscode_custom_css.policy": true,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "vscode-great-icons",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "window.commandCenter": false,
+  "terminal.integrated.inheritEnv": false,
+  "editor.bracketPairColorization.enabled": false,
+
+  "editor.renderWhitespace": "none", // removes indent guides
+  "editor.overviewRulerBorder": false, // removes border from overview ruler (located on the right, same position as the scrollbar)
+  "editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
+  "editor.folding": false, // removes the folding feature
+  "editor.occurrencesHighlight": false, // removes highlights occurrences (still works when you select a word)
+  "editor.glyphMargin": false, // removes the space used mainly for debugging indicators
+  "explorer.openEditors.visible": 0, // removes the open editors section at the top of the sidebar, you can see the opened files with ⌘ + ⌥ + Tab
+  "workbench.editor.showIcons": false, // removes icon from opened files in tabs
+  "workbench.editor.tabCloseButton": "off", // removes cross icon from tabs
+  "workbench.statusBar.visible": false, // removes the status bar
+  "editor.matchBrackets": "never", // removes the highlight of matching brackets (I use Subtle Match Brackets extension for this)
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "indenticator.color.dark": "rgba(255,255,255,.1)",
+  "editor.guides.indentation": false,
+  "breadcrumbs.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.enablePreview": false
+  // "workbench.colorCustomizations": { // object that allows you to customize your color theme: https://code.visualstudio.com/docs/getstarted/theme-color-reference
+  // "tab.activeBorder": "#0000" // removes border to highlight active tabs (the colors formats are: #RGB, #RGBA, #RRGGBB or #RRGGBBAA)
+}
