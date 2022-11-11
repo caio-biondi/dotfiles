@@ -73,6 +73,10 @@ endsnippet
 
 # BEGIN SEMANTIC COMMANDS (vec, tilde, etc...)
 # --------------------------------------------- #
+snippet "(^|[^a-zA-Z]mc" "\mathcal{}" rA
+`!p snip.rv = match.group(1)`\mathcal{${1:${VISUAL:}}}$0
+endsnippet
+
 snippet "(^|[^a-zA-Z])ff" "\frac{}{}" rA
 `!p snip.rv = match.group(1)`\frac{${1:${VISUAL:}}}{$2}$0
 endsnippet

@@ -47,7 +47,7 @@ autocmd vim-colors-xcode ColorScheme * hi Comment        cterm=italic gui=italic
 autocmd vim-colors-xcode ColorScheme * hi SpecialComment cterm=italic gui=italic
 
 set termguicolors
-colorscheme xcodelight
+colorscheme xcodedark
 
 lua << END
 require('lualine').setup({
