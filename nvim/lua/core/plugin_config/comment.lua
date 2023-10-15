@@ -1,22 +1,21 @@
 return {
-    "numToStr/Comment.nvim",
+	"numToStr/Comment.nvim",
 
-    config = function()
-        -- Import comment plugin safely
-        local comment = require("Comment")
+	config = function()
+		-- Import comment plugin safely
+		local comment = require("Comment")
 
-        -- Enable comment plugin
-        comment.setup({
+		-- Enable comment plugin
+		comment.setup({
 
-            -- Add a space b/w comment and the line
-            padding = true,
+			-- Add a space b/w comment and the line
+			padding = true,
 
-            ---LHS of toggle mappings in NORMAL mode
-            toggler = {
-                -- Line-comment toggle keymap
-                line = 'gcc',
-            }
-
-        })
-    end,
+			---LHS of toggle mappings in NORMAL mode
+			toggler = {
+				-- Line-comment toggle keymap
+				line = "gcc",
+			},
+		})
+	end,
 }
